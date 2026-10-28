@@ -1,0 +1,22 @@
+uuid: e6923a03-6b0b-4e18-a823-45a8497e97cd
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.taxonomy_term.full
+    - taxonomy.vocabulary.provincias
+  module:
+    - text
+id: taxonomy_term.provincias.full
+targetEntityType: taxonomy_term
+bundle: provincias
+mode: full
+content:
+  description:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }
