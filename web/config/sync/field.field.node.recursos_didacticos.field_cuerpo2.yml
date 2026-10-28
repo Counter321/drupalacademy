@@ -1,0 +1,24 @@
+uuid: 8926dab1-0093-437f-a0be-c0d2b588aa33
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_cuerpo2
+    - node.type.recursos_didacticos
+  module:
+    - text
+id: node.recursos_didacticos.field_cuerpo2
+field_name: field_cuerpo2
+entity_type: node
+bundle: recursos_didacticos
+label: Cuerpo
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+  required_summary: false
+  allowed_formats: {  }
+field_type: text_with_summary

@@ -1,0 +1,29 @@
+uuid: 56bf98d4-062c-4be0-af17-28d2cdb1a7c3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.tipo_de_noticia.field_etiqueta
+    - taxonomy.vocabulary.tipo_de_noticia
+  module:
+    - text
+id: taxonomy_term.tipo_de_noticia.default
+targetEntityType: taxonomy_term
+bundle: tipo_de_noticia
+mode: default
+content:
+  description:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_etiqueta:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden: {  }

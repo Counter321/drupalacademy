@@ -1,0 +1,58 @@
+uuid: c188a7f4-975b-4055-93b9-434afb3724a4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.article.field_cuerpo_articulo
+    - field.field.node.article.field_duracion_del_evento
+    - field.field.node.article.field_telefono_de_contacto
+    - field.field.node.article.field_tipo_articulo
+    - node.type.article
+  module:
+    - datetime_range
+    - text
+    - user
+id: node.article.default
+targetEntityType: node
+bundle: article
+mode: default
+content:
+  field_cuerpo_articulo:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_duracion_del_evento:
+    type: daterange_default
+    label: above
+    settings:
+      timezone_override: ''
+      format_type: medium
+      from_to: both
+      separator: '-'
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  field_telefono_de_contacto:
+    type: basic_string
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 104
+    region: content
+  field_tipo_articulo:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

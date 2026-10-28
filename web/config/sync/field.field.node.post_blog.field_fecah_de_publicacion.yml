@@ -1,0 +1,21 @@
+uuid: ce108e5a-beae-4402-bd2a-7be3456e3368
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_fecah_de_publicacion
+    - node.type.post_blog
+  module:
+    - datetime
+id: node.post_blog.field_fecah_de_publicacion
+field_name: field_fecah_de_publicacion
+entity_type: node
+bundle: post_blog
+label: 'Fecha de publicación'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

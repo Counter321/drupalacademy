@@ -1,0 +1,29 @@
+uuid: 4f037821-064c-432c-84fd-4b00393b5339
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_taxonomia
+    - node.type.post_blog
+    - taxonomy.vocabulary.categoria_de_post
+id: node.post_blog.field_taxonomia
+field_name: field_taxonomia
+entity_type: node
+bundle: post_blog
+label: Taxonomía
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      categoria_de_post: categoria_de_post
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

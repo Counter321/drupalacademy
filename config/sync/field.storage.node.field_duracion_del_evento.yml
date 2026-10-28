@@ -1,0 +1,20 @@
+uuid: 9122be85-9017-45ae-83cb-92347e166097
+langcode: en
+status: true
+dependencies:
+  module:
+    - datetime_range
+    - node
+id: node.field_duracion_del_evento
+field_name: field_duracion_del_evento
+entity_type: node
+type: daterange
+settings:
+  datetime_type: datetime
+module: datetime_range
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

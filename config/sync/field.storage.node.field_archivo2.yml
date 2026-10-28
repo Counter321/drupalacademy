@@ -1,0 +1,23 @@
+uuid: a33ad957-c731-44d9-bb72-9ac98ef749cb
+langcode: en
+status: true
+dependencies:
+  module:
+    - file
+    - node
+id: node.field_archivo2
+field_name: field_archivo2
+entity_type: node
+type: file
+settings:
+  target_type: file
+  display_field: false
+  display_default: false
+  uri_scheme: public
+module: file
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

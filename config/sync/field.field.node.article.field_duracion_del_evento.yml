@@ -1,0 +1,21 @@
+uuid: 357a04db-03d1-4be6-9683-0b357932ea5d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_duracion_del_evento
+    - node.type.article
+  module:
+    - datetime_range
+id: node.article.field_duracion_del_evento
+field_name: field_duracion_del_evento
+entity_type: node
+bundle: article
+label: 'Duración del evento'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: daterange

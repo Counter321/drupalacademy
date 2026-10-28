@@ -1,0 +1,21 @@
+uuid: dcca3259-0699-4624-bb41-a05bddc5a478
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_telefono_de_contacto
+    - node.type.article
+  module:
+    - telephone
+id: node.article.field_telefono_de_contacto
+field_name: field_telefono_de_contacto
+entity_type: node
+bundle: article
+label: 'Teléfono de contacto'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: telephone

@@ -1,0 +1,9 @@
+uuid: 5df68def-aca7-46a6-a259-a1eb949ba282
+langcode: en
+status: true
+dependencies: {  }
+name: 'Tipo de recurso didáctico'
+vid: tipo_de_recurso_didactico
+description: null
+weight: 0
+new_revision: false

@@ -1,0 +1,24 @@
+uuid: d0fc588c-7d96-4a62-afc4-a616d8d61283
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_etiqueta
+    - taxonomy.vocabulary.tipo_de_noticia
+  module:
+    - text
+id: taxonomy_term.tipo_de_noticia.field_etiqueta
+field_name: field_etiqueta
+entity_type: taxonomy_term
+bundle: tipo_de_noticia
+label: Etiqueta
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+  required_summary: false
+  allowed_formats: {  }
+field_type: text_with_summary
