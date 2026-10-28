@@ -1,0 +1,17 @@
+uuid: 71750d43-1299-443c-b5f5-4b939ea7a905
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.tecnologias
+  module:
+    - taxonomy
+    - toolbar
+id: editor_de_proyectos
+label: 'Editor de proyectos'
+weight: 4
+is_admin: false
+permissions:
+  - 'access toolbar'
+  - 'create terms in tecnologias'
+  - 'edit terms in tecnologias'
